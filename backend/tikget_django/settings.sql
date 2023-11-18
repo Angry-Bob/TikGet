@@ -1,0 +1,3 @@
+CREATE DATABASE tikget;
+CREATE USER tikgetuser WITH PASSWORD 'tikget';
+GRANT ALL PRIVILEGES ON DATABASE tikget TO tikgetuser;
